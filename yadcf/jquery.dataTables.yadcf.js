@@ -2399,7 +2399,7 @@ var yadcf = (function ($) {
                 sort_order = columnObj.sort_order;
                 date_format = columnObj.date_format;
                 if (columnObj.datepicker_type === 'jquery-ui') {
-                    date_format = date_format.replace("yyyy", "yy");
+                    date_format = "dd-mm-yy";
                 }
                 if (columnObj.datepicker_type === 'bootstrap-datetimepicker' && columnObj.filter_plugin_options !== undefined && columnObj.filter_plugin_options.format !== undefined) {
                     date_format = columnObj.filter_plugin_options.format;

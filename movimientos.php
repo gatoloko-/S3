@@ -36,9 +36,9 @@
 				<th>Proveedor</th>
 				<th width="100">Origen</th>
 				<th width="100">Destino</th>
-				<th width="80">Recogida</th>
+				<th width="100">Recogida</th>
 				<th>Hora</th>
-				<th width="80">Entrega</th>
+				<th width="100">Entrega</th>
 				<th>Hora</th>
 				<th>Servicio</th>
 				<th>Detalle</th>
@@ -59,7 +59,7 @@
 				<td>TR3SVIAS</td>
 				<td>ANTOFAGASTA</td>
 				<td>CONCEPCION</td>
-				<td>30-09-2016</td>
+				<td>27-09-2016</td>
 				<td>15:30</td>
 				<td>02-10-2016</td>
 				<td>15:30</td>
@@ -143,7 +143,9 @@ $(document).ready(function(){
 	    //{column_number : 3, text_data_delimiter: ",", filter_type: "auto_complete"},
 	    {column_number : 4, column_data_type: "html", html_data_type: "text", filter_default_label: "Filtrar"},
 	    {column_number : 9, text_data_delimiter: ",", filter_type: "auto_complete"},
-	    {column_number : 10, text_data_delimiter: ",", filter_type: "auto_complete"}]);
+	    {column_number : 10, text_data_delimiter: ",", filter_type: "auto_complete"},
+	    {column_number : 11, text_data_delimiter: ",", filter_type: "date"},
+	    {column_number : 13, text_data_delimiter: ",", filter_type: "date"}]);
 });
 
 $('.ui.dropdown').dropdown();

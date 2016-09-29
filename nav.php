@@ -46,7 +46,7 @@
 </div>
 <style>
 		.ui-autocomplete-input, .yadcf-filter-date{
-			width: 60px;
+			width: 65px;
 		}
 		/*#menu{
 			margin: 0px;
