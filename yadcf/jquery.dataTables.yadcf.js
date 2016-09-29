@@ -423,9 +423,9 @@ var yadcf = (function ($) {
         placeholderLang = {
             'select': 'Select value',
             'select_multi': 'Select values',
-            'filter': 'Type to filter',
+            'filter': '',
             'range': ['From', 'To'],
-            'date': 'Select a date'
+            'date': 'Fecha'
         },
         settingsMap = {};
 
@@ -3833,7 +3833,7 @@ var yadcf = (function ($) {
                 } else if (columnsObj.filter_type === "range_number" || columnsObj.filter_type === "range_date") {
                     columnsObj.filter_default_label = ["from", "to"];
                 } else if (columnsObj.filter_type === "date") {
-                    columnsObj.filter_default_label = "Select a date";
+                    columnsObj.filter_default_label = "fecha";
                 }
             }
             columnsObj = $.extend({}, default_options, columnsObj);

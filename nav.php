@@ -1,14 +1,15 @@
-<div class="ui top attached menu" id="menu">
+<div class="ui stackable container menu" id="menu">
 	<img src="img/logo_small.png" width="200" height="50">
 	<div class="item"></div>
   <div class="ui dropdown item">
     Ordenes
+    <i class="dropdown icon"></i>
     <div class="menu">
-      <div class="item">
-      	<a href="home-2.php">
-      		<span class="text">Listado</span>
-      	</a>
-      </div>
+    	<a href="home-2.php">
+	      <div class="item">
+	      		<span class="text">Listado</span>
+	      </div>
+	    </a>
       <div class="item">
         <span class="text">Nueva</span>
       </div>
@@ -23,13 +24,13 @@
   
   <div class="ui dropdown item">
     Movimientos
+    <i class="dropdown icon"></i>
     <div class="menu">
-      <div class="item">
-      	<a href="movimientos.php">
-      		<span class="text">Listado</span>
-      	</a>
-        
-      </div>
+      <a href="movimientos.php">
+        <div class="item">
+      	  <span class="text">Listado</span>
+        </div>
+      </a>
       <div class="item">
         <span class="text">Nuevo</span>
       </div>
@@ -44,12 +45,15 @@
   
 </div>
 <style>
-		#menu{
-			margin: 0px;
+		.ui-autocomplete-input, .yadcf-filter-date{
+			width: 60px;
 		}
+		/*#menu{
+			margin: 0px;
+		}*/
 		.ui.table td, th{
 			padding:3px;
-			
+			font-size:11px;
 		}
 		.paginate_button{
 			padding:3px;
@@ -58,4 +62,4 @@
 		.dataTables_length{
 			padding:3px;
 		}
-	</style>
+</style>	
