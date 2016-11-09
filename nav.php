@@ -67,7 +67,10 @@
                 <span class="text"><a onclick="$('#nuevo_proveedor').modal('show');">Nuevo</a></span>
             </div>
             <div class="item">
-                <span class="text">Listado de cargos</span>
+                <span class="text"><a href="listado_cargos.php">Listado de cargos</a></span>
+            </div>
+            <div class="item">
+                <span class="text" onclick="">Carga de documentos</span>
             </div>
             <div class="item">
                 <span class="text">Editar</span>

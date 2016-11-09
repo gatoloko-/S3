@@ -1,0 +1,5 @@
+tener en cuenta
+    cierre de documentos de proveedores
+    asociación por cliente(mostrar solo disponibles cargados)
+    
+
